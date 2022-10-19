@@ -98,22 +98,19 @@ const User = () => {
           <button
             onClick={showMillionaires}
             className="btn btn-light border border-dark mt-2"
-            type="button"
-          >
+            type="button">
             Show Only Millionaires &#128181;
           </button>
           <button
             onClick={sortData}
             className="btn btn-light border border-dark mt-2"
-            type="button"
-          >
+            type="button">
             Sort by Richest &#11015;
           </button>
           <button
             onClick={totalAmount}
             className="btn btn-light border border-dark mt-2"
-            type="button"
-          >
+            type="button">
             Calculate entrie Wealth &#127980;
           </button>
         </div>
