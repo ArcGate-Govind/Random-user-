@@ -112,7 +112,7 @@ amount= amount+item.wealth
         </div>
 
         <div className="col-4 ">
-          <div className="d-flex  justify-content-between m-3 border-bottom border-2  border-dark ">
+          <div className="d-flex  justify-content-between m-2 border-bottom border-2  border-dark ">
           <table className="table">
           <thead>
             <tr>
@@ -126,7 +126,7 @@ amount= amount+item.wealth
 
             <tr>
             <td>Total :</td>
-            <td>{total}</td>
+            <td>${total}</td>
             </tr>
             </tbody>
             </table>
